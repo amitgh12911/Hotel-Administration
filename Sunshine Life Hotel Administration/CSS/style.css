@@ -1,0 +1,39 @@
+.navbar {
+    z-index: 1000;
+}
+
+img[alt="logo"] {
+    height: 40px;
+}
+
+.container .row .col .card img {
+    height: 300px;
+}
+
+.footer-icons {
+    padding: 0 10px;
+}
+
+.footer-icons i {
+    font-size: 20px;
+    transition: all 0.1s linear;
+}
+
+#facebook i:hover {
+    color: #4867aa !important;
+}
+#instagram i:hover {
+    color: #d33d95 !important;
+}
+#twitter i:hover {
+    color: #5da9dd !important;
+}
+#youtube i:hover {
+    color: #ff0000 !important;
+}
+
+@media print {
+    .navbar {
+        display: none;
+    }
+}
